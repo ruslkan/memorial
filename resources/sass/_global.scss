@@ -1,0 +1,80 @@
+// ========== BEGIN GLOBAL STYLES ========== //
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    // background: $body-background;
+    overflow-x: hidden;
+}
+
+*:focus {
+    outline: none;
+}
+
+.page {
+    // @include xy-grid-container($width:100%, $padding:0);
+    @include xy-grid-container($width: 1920px, $padding: 0);
+}
+
+.content {
+    @include xy-grid;
+}
+
+.container {
+    @include xy-grid-container;
+
+    &__row {
+        @include xy-grid;
+    }
+
+    &__separator {
+        @include separator($height: 1px, $width: 100%, $background: #7e7d7b);
+        padding-top: 0.5rem;
+
+        &:after,
+        &:before {
+            margin: 0;
+        }
+
+        &_large {
+            @include separator(
+                $height: 3px,
+                $width: 100%,
+                $background: #0a0a0a
+            );
+            padding-top: 0;
+
+            &:after,
+            &:before {
+                margin: 0;
+            }
+        }
+    }
+
+    &__category-name {
+        @include xy-grid;
+        @include flex-align(center, middle);
+        font-size: 2rem;
+        margin: 1.5rem 0;
+    }
+
+    &__card {
+        @include breakpoint(small) {
+            @include xy-cell(12);
+        }
+        @include breakpoint(medium) {
+            @include xy-cell(6);
+        }
+        @include breakpoint(large) {
+            @include xy-cell(4);
+        }
+        @include xy-gutters($gutter-position: top);
+    }
+
+    &__footer {
+        @include xy-gutters($gutter-position: top);
+    }
+}

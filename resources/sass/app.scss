@@ -1,0 +1,83 @@
+// ========== TABLE OF CONTENTS ========== //
+//  1. ZURB FOUNDATION
+//  2. MY STYLES
+// ===============
+// 2.1 Fonts
+// 2.2 Color
+// 2.3 Global
+// 2.4 Button
+// 2.5 Header
+// 2.6 Navigation
+// 2.7 Product
+// 2.8 Attribute
+// 2.9 Checkbox
+// 2.10 Radiobutton
+// 2.11 Service
+// 2.12 Footer
+// 2.13 Logo
+// 2.14 Accessory
+
+//  -------------
+//  1. ZURB FOUNDATION
+//  -------------
+@import "settings";
+@import "~foundation-sites/scss/foundation";
+@include foundation-everything(true);
+
+//  -------------
+//  2. MY STYLES
+//  -------------
+
+// 2.1 Fonts
+@font-face {
+    font-family: "Lobster";
+    src: url("/fonts/Lobster-Regular.ttf");
+    font-weight: normal;
+    font-style: normal;
+}
+
+// 2.2 Color
+$color-title: rgb(204, 136, 74);
+$color-text: rgb(0, 0, 0);
+
+// 2.3 Global
+@import "global";
+
+// 2.4 Button
+@import "components/parts/button";
+
+// 2.5 Header
+@import "components/parts/header";
+
+// 2.6 Navigation
+@import "components/parts/category-nav";
+
+// 2.7 Product
+@import "components/parts/product-card";
+@import "components/parts/product-image-preview";
+
+// 2.8 Page
+@import "components/pages/product-item";
+@import "components/pages/product-calculator";
+
+// 2.8 Attribute
+@import "components/parts/attribute";
+
+// 2.9 Checkbox
+@import "components/parts/checkbox";
+
+// 2.10 Radiobutton
+@import "components/parts/radiobutton";
+
+// 2.11 Service
+@import "components/parts/service";
+
+// 2.12 Footer
+@import "components/parts/footer";
+
+// 2.13 Logo
+@import "components/parts/logo";
+
+// 2.14 Accessory
+@import "components/parts/accessory-card";
+@import "components/pages/accessory-item";

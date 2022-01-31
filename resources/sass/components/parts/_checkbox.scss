@@ -1,0 +1,75 @@
+// ========== BEGIN CHECKBOX ========== //
+input[type="checkbox"] {
+    margin: 0;
+}
+
+input[type="checkbox"] {
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    appearance: none;
+    vertical-align: middle;
+    outline: none;
+    font-size: inherit;
+    cursor: pointer;
+    width: 1em;
+    height: 1em;
+    background: white;
+    border-radius: 0.25em;
+    border: 0.125em solid #555;
+    position: relative;
+}
+
+input[type="checkbox"]:checked {
+    background: rgb(204, 136, 74);
+}
+
+input[type="checkbox"]:checked:after {
+    content: "✔";
+    position: absolute;
+    font-size: 90%;
+    left: 0.0625em;
+    top: -0.25em;
+    color: $white;
+}
+
+.checkbox {
+    &__title {
+        font-size: 1.25rem;
+        font-weight: 600;
+    }
+
+    &__list {
+        list-style: none;
+    }
+
+    &__item {
+        list-style: none;
+    }
+
+    &__label {
+        font-weight: 600;
+        margin-right: 0.2rem !important;
+        @include breakpoint(small) {
+            font-size: 0.75rem;
+        }
+        @include breakpoint(medium) {
+            font-size: 0.85rem;
+        }
+        @include breakpoint(large) {
+            font-size: 0.85rem;
+        }
+    }
+
+    &__price {
+        @include breakpoint(small) {
+            font-size: 0.65rem;
+        }
+        @include breakpoint(medium) {
+            font-size: 0.85rem;
+        }
+        @include breakpoint(large) {
+            font-size: 0.85rem;
+        }
+        text-align: right;
+    }
+}

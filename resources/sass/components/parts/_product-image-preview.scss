@@ -1,0 +1,119 @@
+// ========== BEGIN PRODUCT IMAGE PREVIEW ========== //
+.product-slides {
+    margin: 0 auto;
+    max-width: 900px;
+    padding: 30px;
+}
+
+.main {
+    margin-bottom: 30px;
+}
+
+.thumbnails {
+    margin: 0 -5px;
+    width: calc(100% + 10px);
+}
+
+.agile__nav-button {
+    background: transparent;
+    border: none;
+    color: #ccc;
+    cursor: pointer;
+    font-size: 24px;
+    transition-duration: 0.3s;
+}
+
+.thumbnails .agile__nav-button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.thumbnails .agile__slide--active {
+    border: 2px solid #cc884a;
+    border-radius: 5px;
+}
+
+.thumbnails .agile__nav-button--prev {
+    left: -45px;
+}
+
+.thumbnails .agile__nav-button--next {
+    right: -45px;
+}
+
+.agile__nav-button:hover {
+    color: #888;
+}
+
+.agile__actions {
+    margin-top: 1rem;
+}
+
+.agile__dot {
+    margin: 0 8px;
+}
+
+.agile__dot button {
+    background-color: #f1c59c;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    display: block;
+    height: 10px;
+    font-size: 0;
+    line-height: 0;
+    margin: 0;
+    padding: 0;
+    transition-duration: 0.3s;
+    width: 10px;
+}
+
+.agile__dot--current button,
+.agile__dot:hover button {
+    background-color: #cc884a;
+}
+
+.agile__nav-button {
+    position: absolute;
+    color: #cc884a;
+
+    &.agile__nav-button--prev {
+        top: 50%;
+        left: 1%;
+    }
+
+    &.agile__nav-button--next {
+        top: 50%;
+        right: 1%;
+    }
+}
+
+.slide {
+    align-items: center;
+    box-sizing: border-box;
+    //color: #fff;
+    display: flex;
+    height: 450px;
+    justify-content: center;
+}
+
+.slide--thumbniail {
+    cursor: pointer;
+    height: auto;
+    padding: 0 5px;
+    transition: opacity 0.3s;
+}
+
+.slide--thumbniail:hover {
+    opacity: 0.75;
+}
+
+.slide img {
+    height: 100%;
+    width: 100%;
+    -o-object-fit: cover;
+    object-fit: cover;
+    -o-object-position: center;
+    object-position: center;
+}

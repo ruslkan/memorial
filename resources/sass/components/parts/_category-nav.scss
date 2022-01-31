@@ -1,0 +1,16 @@
+// ========== BEGIN CATEGORY NAVIGATION ========== //
+.category-nav {
+    @include button-group($child-selector: ".button-main");
+    @include flex-align($x: center, $y: middle);
+    font-weight: 600;
+    list-style-type: none;
+    align-items: center;
+
+    .button-main {
+        font-size: 1rem;
+
+        &:last-child {
+            margin-right: 8px;
+        }
+    }
+}

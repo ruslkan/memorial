@@ -1,0 +1,67 @@
+// ========== BEGIN BUTTON ========== //
+.button-main {
+    display: inline-block;
+    padding: 8px;
+    background-color: #cc884a;
+    color: white;
+    cursor: pointer;
+    font-size: 0.85rem;
+    transition: 0.2s;
+
+    &:hover {
+        transform: scale(1.2);
+        box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+        transition: all 0s, background 0.2s;
+        z-index: 10;
+    }
+
+    &:active {
+        background-color: #cc884a;
+    }
+
+    &:focus {
+        background-color: #cc884a;
+    }
+
+    &.current {
+        background-color: #4e2804;
+    }
+}
+
+//
+.quantity {
+    @include xy-grid;
+
+    input {
+        border: 0;
+        background: #cc884a;
+        color: white;
+        width: 1.5rem;
+        text-align: center;
+        margin: 0;
+        height: 30px;
+    }
+}
+
+.button-accessory {
+    background-color: #349ce2;
+
+    &:hover {
+        transform: scale(1.2);
+        box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+        transition: all 0s, background 0.2s;
+        z-index: 10;
+    }
+
+    &:active {
+        background-color: #349ce2;
+    }
+
+    &:focus {
+        background-color: #349ce2;
+    }
+
+    &.current {
+        background-color: #281be9;
+    }
+}

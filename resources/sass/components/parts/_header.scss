@@ -1,0 +1,27 @@
+// ========== BEGIN HEADER ========== //
+.header {
+    &__inner {
+        padding: 0.5rem 0 0 0;
+        text-align: center;
+    }
+
+    &__headline {
+        font-family: Lobster, sans-serif;
+        color: $color-title;
+        @include xy-cell(12);
+        margin-bottom: 0;
+        font-size: rem-calc(32);
+        letter-spacing: 5px;
+    }
+
+    &__desc {
+        padding-bottom: 1.5rem;
+        color: $light-gray;
+        font-style: italic;
+        @include xy-cell(12);
+    }
+
+    &__logo {
+        @include xy-cell(12);
+    }
+}

@@ -1,0 +1,15 @@
+// ========== BEGIN FOOTER ========== //
+.footer {
+    &__inner {
+        @include xy-grid;
+        @include flex-align(center, middle);
+    }
+
+    &__copyright {
+        padding: 1rem 0;
+        font-style: italic;
+        color: $dark-gray;
+        font-size: 0.65rem;
+        margin-bottom: 0;
+    }
+}

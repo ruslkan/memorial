@@ -1,0 +1,80 @@
+// ========== BEGIN PRODUCT ITEM PAGE ========== //
+.product-item {
+    padding: 1rem 0;
+    background-color: #fff;
+    border: 1px solid $light-gray;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+    &__image-area {
+        @include breakpoint(small) {
+            @include xy-cell(12);
+        }
+        @include breakpoint(medium) {
+            @include xy-cell(12);
+        }
+        @include breakpoint(large) {
+            @include xy-cell(6);
+        }
+        @include flex-align-self(top);
+        margin-left: 0;
+    }
+
+    &__price {
+        font: 33px/34px "chevin_cyrillicbold", sans-serif;
+        margin-top: 0.5rem;
+        font-weight: 700;
+        text-align: center;
+        background-color: $light-gray;
+        padding: 1rem;
+        color: $color-text;
+    }
+
+    &__price-unit {
+        font-size: 1.1rem;
+        padding-left: 0.2rem;
+    }
+
+    &__price-note {
+        color: red;
+    }
+
+    &__note {
+        font-weight: 600;
+        font-style: italic;
+        font-size: 0.85rem;
+        text-align: center;
+        color: red;
+    }
+
+    &__attribute {
+        @include breakpoint(small) {
+            @include xy-cell(12);
+        }
+        @include breakpoint(medium) {
+            @include xy-cell(12);
+        }
+        @include breakpoint(large) {
+            @include xy-cell(6);
+        }
+        @include flex-align-self(top);
+        padding: 1rem 0;
+    }
+
+    &__select {
+        padding-top: 1.8rem;
+    }
+
+    &__service {
+        padding-top: 1rem;
+    }
+
+    &__button {
+        @include xy-grid;
+        @include flex-align($x: center, $y: middle);
+    }
+
+    &__button-main {
+        margin: 1rem 0.5rem;
+    }
+}
