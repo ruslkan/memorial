@@ -14,15 +14,21 @@ First, make sure you have [Docker](https://docs.docker.com/) and [Docker Compose
 
 1. Clone this repository:
 
+    ```sh
     git clone https://github.com/ruslkan/memorial.git
+    ```
 
 2. Open your terminal and `cd` to any directory of your choice
 
-    cd memorial
+    ```sh
+    cd your-folder
+    ```
 
 3. Rename the `.env.example` file to `.env`. Edit the .env file and provide data for connecting to the database.
 
+    ```sh
     cp .env.example .env
+    ```
 
 4. Installing Composer Dependencies
 
