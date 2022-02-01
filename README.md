@@ -12,25 +12,20 @@ Vue 2 + VueRouter + VueX
 
 First, make sure you have [Docker](https://docs.docker.com/) and [Docker Compose](https://docs.docker.com/compose/install/) installed on your system.
 
-1. Clone this repository:
+1. Clone this repo into your new project folder:
 
     ```sh
+    cd ~/your-folder
     git clone https://github.com/ruslkan/memorial.git
     ```
 
-2. Open your terminal and `cd` to any directory of your choice
-
-    ```sh
-    cd your-folder
-    ```
-
-3. Rename the `.env.example` file to `.env`. Edit the .env file and provide data for connecting to the database.
+2. Rename the `.env.example` file to `.env`. Edit the .env file and provide data for connecting to the database.
 
     ```sh
     cp .env.example .env
     ```
 
-4. Installing Composer Dependencies
+3. Installing Composer Dependencies
 
     ```sh
     docker run --rm \
