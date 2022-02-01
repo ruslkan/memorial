@@ -16,7 +16,7 @@ First, make sure you have [Docker](https://docs.docker.com/) and [Docker Compose
 
     ```sh
     cd ~/your-folder
-    git clone https://github.com/ruslkan/memorial.git
+    git clone https://github.com/ruslkan/memorial.git memorial
     ```
 
 2. Rename the `.env.example` file to `.env`. Edit the .env file and provide data for connecting to the database.
