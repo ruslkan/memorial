@@ -35,7 +35,6 @@ First, make sure you have [Docker](https://docs.docker.com/) and [Docker Compose
 
     ```sh
     docker run --rm \
-    -u "$(id -u):$(id -g)" \
     -v $(pwd):/var/www/html \
     -w /var/www/html \
     laravelsail/php80-composer:latest \
@@ -53,6 +52,14 @@ First, make sure you have [Docker](https://docs.docker.com/) and [Docker Compose
     ```sh
     ./vendor/bin/sail npm install
     ```
+
+7. run watcher
+
+    ```sh
+    ./vendor/bin/sail npm run watch
+    ```
+
+    open http://localhost:3000
 
 ### License
 
