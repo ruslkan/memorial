@@ -26,12 +26,14 @@ First, make sure you have [Docker](https://docs.docker.com/) and [Docker Compose
 
 4. Installing Composer Dependencies
 
+    ```sh
     docker run --rm \
-     -u "$(id -u):$(id -g)" \
-     -v \$(pwd):/var/www/html \
-     -w /var/www/html \
-     laravelsail/php80-composer:latest \
-     composer install --ignore-platform-reqs
+    -u "$(id -u):$(id -g)" \
+    -v $(pwd):/var/www/html \
+    -w /var/www/html \
+    laravelsail/php80-composer:latest \
+    composer update
+    ```
 
 ### License
 
