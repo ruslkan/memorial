@@ -15,17 +15,23 @@ First, make sure you have [Docker](https://docs.docker.com/) and [Docker Compose
 1. Clone this repo into your new project folder:
 
     ```sh
-    cd ~/your-folder
-    git clone https://github.com/ruslkan/memorial.git memorial
+    cd ~/work-folder
+    git clone https://github.com/ruslkan/memorial.git your-folder-name
     ```
 
-2. Rename the `.env.example` file to `.env`. Edit the .env file and provide data for connecting to the database.
+2. Go to the your-folder-name using cd command on your terminal
+
+    ```sh
+    cd your-folder-name
+    ```
+
+3. Rename the `.env.example` file to `.env`. Edit the .env file and provide data for connecting to the database.
 
     ```sh
     cp .env.example .env
     ```
 
-3. Installing Composer Dependencies
+4. Installing Composer Dependencies
 
     ```sh
     docker run --rm \
@@ -33,7 +39,19 @@ First, make sure you have [Docker](https://docs.docker.com/) and [Docker Compose
     -v $(pwd):/var/www/html \
     -w /var/www/html \
     laravelsail/php80-composer:latest \
-    composer update
+    composer install --ignore-platform-reqs
+    ```
+
+5. Start Sail
+
+    ```sh
+    ./vendor/bin/sail up -d
+    ```
+
+6. NPM install
+
+    ```sh
+    ./vendor/bin/sail npm install
     ```
 
 ### License
