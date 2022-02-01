@@ -1,8 +1,37 @@
-### Introduction
+## Introduction
 
-Monument web directory with calculator
+Web catalog of monuments with a database. Implemented a filter by category, a calculator of the total cost for the selected parameters.
 
-An example of a catalog implemented on Laravel 8 (back) and Vuejs (front).
+Implemented on:
+
+Laravel 8
+Voyager
+Vue 2 + VueRouter + VueX
+
+### Use
+
+First, make sure you have [Docker](https://docs.docker.com/) and [Docker Compose](https://docs.docker.com/compose/install/) installed on your system.
+
+1. Clone this repository:
+
+    git clone https://github.com/ruslkan/memorial.git
+
+2. Open your terminal and `cd` to any directory of your choice
+
+    cd memorial
+
+3. Rename the `.env.example` file to `.env`. Edit the .env file and provide data for connecting to the database.
+
+    cp .env.example .env
+
+4. Installing Composer Dependencies
+
+    docker run --rm \
+     -u "$(id -u):$(id -g)" \
+     -v \$(pwd):/var/www/html \
+     -w /var/www/html \
+     laravelsail/php80-composer:latest \
+     composer install --ignore-platform-reqs
 
 ### License
 
