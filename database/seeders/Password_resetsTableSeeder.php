@@ -4,7 +4,7 @@ namespace Database\Seeders;
 
 use Illuminate\Database\Seeder;
 
-class TranslationsTableSeeder extends Seeder
+class Password_resetsTableSeeder extends Seeder
 {
     /**
      * Auto generated seed file
@@ -18,9 +18,9 @@ class TranslationsTableSeeder extends Seeder
      try {
         \DB::beginTransaction();
 
-        \DB::table('translations')->delete();
+        \DB::table('password_resets')->delete();
 
-        \DB::table('translations')->insert(array (
+        \DB::table('password_resets')->insert(array (
             ));
        } catch(Exception $e) {
          throw new Exception('Exception occur ' . $e);

@@ -1,0 +1,32 @@
+<?php
+
+return [
+    'tables' => [
+        'accessories',
+        'accessory_categories',
+        'categories',
+        'data_rows',
+        'data_types',
+        'failed_jobs',
+        'materials',
+        'menus',
+        'menu_items',
+        'migrations',
+        'parterres',
+        'password_resets',
+        'pedestals',
+        'permissions',
+        'permission_role',
+        'personal_access_tokens',
+        'pillars',
+        'products',
+        'roles',
+        'services',
+        'settings',
+        'stellas',
+        'tombstones',
+        'translations',
+        'users',
+        'user_roles',
+    ],
+];

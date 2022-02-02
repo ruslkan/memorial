@@ -8,30 +8,40 @@ Laravel 8
 Voyager
 Vue 2 + VueRouter + VueX
 
-### Use
+## Use
 
 First, make sure you have [Docker](https://docs.docker.com/) and [Docker Compose](https://docs.docker.com/compose/install/) installed on your system.
 
 1. Clone this repo into your new project folder:
 
     ```sh
-    cd ~/work-folder
     git clone https://github.com/ruslkan/memorial.git your-folder-name
     ```
 
-2. Go to the your-folder-name using cd command on your terminal
+2. Go to the your-folder-name using `cd` command on your terminal
 
-    ```sh
+    ```bash
     cd your-folder-name
     ```
 
-3. Rename the `.env.example` file to `.env`. Edit the .env file and provide data for connecting to the database.
+3. Rename the `.env.example` file to `.env`.
 
-    ```sh
+    ```bash
     cp .env.example .env
     ```
 
-4. Installing Composer Dependencies
+4. Edit the .env file and provide data for connecting to the database.
+
+    ```sh
+    DB_CONNECTION=mysql
+    DB_HOST=mysql
+    DB_PORT=3306
+    DB_DATABASE=memorial_db // yourdatabase, create if not exist
+    DB_USERNAME=root // user for database by default is root
+    DB_PASSWORD= // password for database by default is : empty
+    ```
+
+5. Installing Composer Dependencies
 
     ```sh
     docker run --rm \
@@ -41,26 +51,40 @@ First, make sure you have [Docker](https://docs.docker.com/) and [Docker Compose
     composer install --ignore-platform-reqs
     ```
 
-5. Start Sail
+6. Start Sail
 
     ```sh
     ./vendor/bin/sail up -d
     ```
 
-6. NPM install
+7. Then generate key
+
+    ```sh
+    ./vendor/bin/sail php artisan key:generate
+    ```
+
+8. Run Migrations
+
+    ```sh
+    ./vendor/bin/sail php artisan migrate
+    ```
+
+9. Run Seeder
+
+    ```sh
+    ./vendor/bin/sail php artisan db:seed --class=VoyagerDeploymentOrchestratorSeeder
+    ```
+
+10. NPM install
 
     ```sh
     ./vendor/bin/sail npm install
     ```
 
-7. run watcher
+11. Run watcher
 
     ```sh
     ./vendor/bin/sail npm run watch
     ```
 
-    open http://localhost:3000
-
-### License
-
-Please use and re-use however you want.
+    open: http://localhost:3000
