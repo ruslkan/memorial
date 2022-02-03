@@ -136,7 +136,7 @@ class SettingsTableSeeder extends Seeder
                     'id' => 11,
                     'key' => 'site.header_bg',
                     'display_name' => 'Фоновое изображение шапки',
-                    'value' => 'settings/August2021/10GO21cHF4RKmZCP95N9.jpg',
+                    'value' => '',
                     'details' => NULL,
                     'type' => 'image',
                     'order' => 6,

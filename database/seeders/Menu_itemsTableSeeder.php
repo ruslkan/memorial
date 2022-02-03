@@ -327,38 +327,6 @@ class Menu_itemsTableSeeder extends Seeder
                 ),
                 19 => 
                 array (
-                    'id' => 26,
-                    'menu_id' => 2,
-                    'title' => 'Памятники',
-                    'url' => '',
-                    'target' => '_self',
-                    'icon_class' => 'voyager-list',
-                    'color' => '#000000',
-                    'parent_id' => NULL,
-                    'order' => 1,
-                    'created_at' => '2022-01-15 19:30:02',
-                    'updated_at' => '2022-01-15 19:31:06',
-                    'route' => NULL,
-                    'parameters' => '',
-                ),
-                20 => 
-                array (
-                    'id' => 27,
-                    'menu_id' => 2,
-                    'title' => 'Категории',
-                    'url' => '',
-                    'target' => '_self',
-                    'icon_class' => 'voyager-categories',
-                    'color' => '#000000',
-                    'parent_id' => 26,
-                    'order' => 1,
-                    'created_at' => '2022-01-15 19:31:03',
-                    'updated_at' => '2022-01-15 19:31:06',
-                    'route' => 'voyager.categories.index',
-                    'parameters' => NULL,
-                ),
-                21 => 
-                array (
                     'id' => 29,
                     'menu_id' => 1,
                     'title' => 'Памятники',
@@ -373,7 +341,7 @@ class Menu_itemsTableSeeder extends Seeder
                     'route' => 'voyager.products.index',
                     'parameters' => NULL,
                 ),
-                22 => 
+                20 => 
                 array (
                     'id' => 31,
                     'menu_id' => 1,
@@ -389,7 +357,7 @@ class Menu_itemsTableSeeder extends Seeder
                     'route' => NULL,
                     'parameters' => '',
                 ),
-                23 => 
+                21 => 
                 array (
                     'id' => 35,
                     'menu_id' => 1,
@@ -405,7 +373,7 @@ class Menu_itemsTableSeeder extends Seeder
                     'route' => 'voyager.accessories.index',
                     'parameters' => 'null',
                 ),
-                24 => 
+                22 => 
                 array (
                     'id' => 36,
                     'menu_id' => 1,

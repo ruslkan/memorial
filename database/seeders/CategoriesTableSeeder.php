@@ -50,15 +50,6 @@ class CategoriesTableSeeder extends Seeder
                 ),
                 3 => 
                 array (
-                    'id' => 7,
-                    'name' => 'Детские',
-                    'image' => 'categories/December2021/xCIXqQHOJF9xwZWjt0hg.jpg',
-                    'deleted_at' => NULL,
-                    'created_at' => '2021-12-06 15:34:51',
-                    'updated_at' => '2022-01-15 19:57:30',
-                ),
-                4 => 
-                array (
                     'id' => 8,
                     'name' => 'Из гранитно-мраморной крошки',
                     'image' => 'categories/December2021/49UiAeSH2lN4tgFZobLm.jpg',
@@ -66,7 +57,7 @@ class CategoriesTableSeeder extends Seeder
                     'created_at' => '2021-12-06 15:37:19',
                     'updated_at' => '2021-12-07 05:11:00',
                 ),
-                5 => 
+                4 => 
                 array (
                     'id' => 9,
                     'name' => 'Комплексы',

@@ -28,13 +28,6 @@ class MenusTableSeeder extends Seeder
                     'created_at' => '2021-08-19 05:43:32',
                     'updated_at' => '2021-08-19 05:43:32',
                 ),
-                1 => 
-                array (
-                    'id' => 2,
-                    'name' => 'main_menu',
-                    'created_at' => '2022-01-15 19:29:20',
-                    'updated_at' => '2022-01-15 19:29:20',
-                ),
             ));
        } catch(Exception $e) {
          throw new Exception('Exception occur ' . $e);
