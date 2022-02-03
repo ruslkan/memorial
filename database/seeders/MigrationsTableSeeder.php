@@ -915,6 +915,72 @@ class MigrationsTableSeeder extends Seeder
                     'migration' => '2022_02_02_193618_add_foreign_keys_to_users_table',
                     'batch' => 0,
                 ),
+                149 => 
+                array (
+                    'id' => 150,
+                    'migration' => '2022_02_03_162757_create_accessories_table',
+                    'batch' => 5,
+                ),
+                150 => 
+                array (
+                    'id' => 151,
+                    'migration' => '2022_02_03_162757_create_accessory_categories_table',
+                    'batch' => 5,
+                ),
+                151 => 
+                array (
+                    'id' => 152,
+                    'migration' => '2022_02_03_162757_create_categories_table',
+                    'batch' => 5,
+                ),
+                152 => 
+                array (
+                    'id' => 153,
+                    'migration' => '2022_02_03_162757_create_materials_table',
+                    'batch' => 5,
+                ),
+                153 => 
+                array (
+                    'id' => 154,
+                    'migration' => '2022_02_03_162757_create_parterres_table',
+                    'batch' => 5,
+                ),
+                154 => 
+                array (
+                    'id' => 155,
+                    'migration' => '2022_02_03_162757_create_pedestals_table',
+                    'batch' => 5,
+                ),
+                155 => 
+                array (
+                    'id' => 156,
+                    'migration' => '2022_02_03_162757_create_pillars_table',
+                    'batch' => 5,
+                ),
+                156 => 
+                array (
+                    'id' => 157,
+                    'migration' => '2022_02_03_162757_create_products_table',
+                    'batch' => 5,
+                ),
+                157 => 
+                array (
+                    'id' => 158,
+                    'migration' => '2022_02_03_162757_create_services_table',
+                    'batch' => 5,
+                ),
+                158 => 
+                array (
+                    'id' => 159,
+                    'migration' => '2022_02_03_162757_create_stellas_table',
+                    'batch' => 5,
+                ),
+                159 => 
+                array (
+                    'id' => 160,
+                    'migration' => '2022_02_03_162757_create_tombstones_table',
+                    'batch' => 5,
+                ),
             ));
        } catch(Exception $e) {
          throw new Exception('Exception occur ' . $e);

@@ -20,13 +20,13 @@ First, make sure you have [Docker](https://docs.docker.com/) and [Docker Compose
 
 2. Go to the your-folder-name using `cd` command on your terminal
 
-    ```bash
+    ```sh
     cd your-folder-name
     ```
 
-3. Rename the `.env.example` file to `.env`.
+3. Rename the `.env.example` file to `.env`
 
-    ```bash
+    ```sh
     cp .env.example .env
     ```
 
