@@ -74,8 +74,10 @@ First, make sure you have [Docker](https://docs.docker.com/) and [Docker Compose
 
     ```sh
     ./vendor/bin/sail php artisan db:seed
-    ./vendor/bin/sail php artisan db:seed --class=VoyagerDatabaseSeeder
+    ```
 
+    ```sh
+    ./vendor/bin/sail php artisan db:seed --class=VoyagerDatabaseSeeder
     ```
 
 10. NPM install
