@@ -49,7 +49,7 @@ First, make sure you have [Docker](https://docs.docker.com/) and [Docker Compose
     -v $(pwd):/var/www/html \
     -w /var/www/html \
     laravelsail/php80-composer:latest \
-    composer install --ignore-platform-reqs
+    composer update --ignore-platform-reqs
     ```
 
 6. Start Sail
@@ -73,7 +73,9 @@ First, make sure you have [Docker](https://docs.docker.com/) and [Docker Compose
 9. Run Seeder
 
     ```sh
-    ./vendor/bin/sail php artisan db:seed --class=VoyagerDeploymentOrchestratorSeeder
+    ./vendor/bin/sail php artisan db:seed
+    ./vendor/bin/sail php artisan db:seed --class=VoyagerDatabaseSeeder
+
     ```
 
 10. NPM install
@@ -88,4 +90,5 @@ First, make sure you have [Docker](https://docs.docker.com/) and [Docker Compose
     ./vendor/bin/sail npm run watch
     ```
 
-    open: http://localhost:3000
+open app: http://localhost:3000
+open admin: http://localhost:3000/admin (login: test@email.com, password: test)
