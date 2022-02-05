@@ -37,7 +37,7 @@ First, make sure you have [Docker](https://docs.docker.com/) and [Docker Compose
     DB_HOST=mysql
     DB_PORT=3306
     DB_DATABASE=memorial_db // yourdatabase, create if not exist
-    DB_USERNAME=root // user for database by default is root
+    DB_USERNAME=test // user for database by default is root
     DB_PASSWORD= // password for database by default is : empty
     ```
 
