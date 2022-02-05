@@ -20,7 +20,6 @@ class DatabaseSeeder extends Seeder
             AccessoryCategoriesTableSeeder::class,
             CategoriesTableSeeder::class,
             MaterialsTableSeeder::class,
-            MigrationsTableSeeder::class,
             ParterresTableSeeder::class,
             PedestalsTableSeeder::class,
             PillarsTableSeeder::class,
@@ -28,6 +27,7 @@ class DatabaseSeeder extends Seeder
             ServicesTableSeeder::class,
             StellasTableSeeder::class,
             TombstonesTableSeeder::class,
+            UsersTableSeeder::class,
         ]);
     }
 }

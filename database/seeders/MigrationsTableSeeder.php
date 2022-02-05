@@ -981,6 +981,186 @@ class MigrationsTableSeeder extends Seeder
                     'migration' => '2022_02_03_162757_create_tombstones_table',
                     'batch' => 5,
                 ),
+                160 => 
+                array (
+                    'id' => 161,
+                    'migration' => '2022_02_05_154725_create_accessories_table',
+                    'batch' => 0,
+                ),
+                161 => 
+                array (
+                    'id' => 162,
+                    'migration' => '2022_02_05_154725_create_accessory_categories_table',
+                    'batch' => 0,
+                ),
+                162 => 
+                array (
+                    'id' => 163,
+                    'migration' => '2022_02_05_154725_create_categories_table',
+                    'batch' => 0,
+                ),
+                163 => 
+                array (
+                    'id' => 164,
+                    'migration' => '2022_02_05_154725_create_data_rows_table',
+                    'batch' => 0,
+                ),
+                164 => 
+                array (
+                    'id' => 165,
+                    'migration' => '2022_02_05_154725_create_data_types_table',
+                    'batch' => 0,
+                ),
+                165 => 
+                array (
+                    'id' => 166,
+                    'migration' => '2022_02_05_154725_create_failed_jobs_table',
+                    'batch' => 0,
+                ),
+                166 => 
+                array (
+                    'id' => 167,
+                    'migration' => '2022_02_05_154725_create_materials_table',
+                    'batch' => 0,
+                ),
+                167 => 
+                array (
+                    'id' => 168,
+                    'migration' => '2022_02_05_154725_create_menu_items_table',
+                    'batch' => 0,
+                ),
+                168 => 
+                array (
+                    'id' => 169,
+                    'migration' => '2022_02_05_154725_create_menus_table',
+                    'batch' => 0,
+                ),
+                169 => 
+                array (
+                    'id' => 170,
+                    'migration' => '2022_02_05_154725_create_parterres_table',
+                    'batch' => 0,
+                ),
+                170 => 
+                array (
+                    'id' => 171,
+                    'migration' => '2022_02_05_154725_create_password_resets_table',
+                    'batch' => 0,
+                ),
+                171 => 
+                array (
+                    'id' => 172,
+                    'migration' => '2022_02_05_154725_create_pedestals_table',
+                    'batch' => 0,
+                ),
+                172 => 
+                array (
+                    'id' => 173,
+                    'migration' => '2022_02_05_154725_create_permission_role_table',
+                    'batch' => 0,
+                ),
+                173 => 
+                array (
+                    'id' => 174,
+                    'migration' => '2022_02_05_154725_create_permissions_table',
+                    'batch' => 0,
+                ),
+                174 => 
+                array (
+                    'id' => 175,
+                    'migration' => '2022_02_05_154725_create_personal_access_tokens_table',
+                    'batch' => 0,
+                ),
+                175 => 
+                array (
+                    'id' => 176,
+                    'migration' => '2022_02_05_154725_create_pillars_table',
+                    'batch' => 0,
+                ),
+                176 => 
+                array (
+                    'id' => 177,
+                    'migration' => '2022_02_05_154725_create_products_table',
+                    'batch' => 0,
+                ),
+                177 => 
+                array (
+                    'id' => 178,
+                    'migration' => '2022_02_05_154725_create_roles_table',
+                    'batch' => 0,
+                ),
+                178 => 
+                array (
+                    'id' => 179,
+                    'migration' => '2022_02_05_154725_create_services_table',
+                    'batch' => 0,
+                ),
+                179 => 
+                array (
+                    'id' => 180,
+                    'migration' => '2022_02_05_154725_create_settings_table',
+                    'batch' => 0,
+                ),
+                180 => 
+                array (
+                    'id' => 181,
+                    'migration' => '2022_02_05_154725_create_stellas_table',
+                    'batch' => 0,
+                ),
+                181 => 
+                array (
+                    'id' => 182,
+                    'migration' => '2022_02_05_154725_create_tombstones_table',
+                    'batch' => 0,
+                ),
+                182 => 
+                array (
+                    'id' => 183,
+                    'migration' => '2022_02_05_154725_create_translations_table',
+                    'batch' => 0,
+                ),
+                183 => 
+                array (
+                    'id' => 184,
+                    'migration' => '2022_02_05_154725_create_user_roles_table',
+                    'batch' => 0,
+                ),
+                184 => 
+                array (
+                    'id' => 185,
+                    'migration' => '2022_02_05_154725_create_users_table',
+                    'batch' => 0,
+                ),
+                185 => 
+                array (
+                    'id' => 186,
+                    'migration' => '2022_02_05_154726_add_foreign_keys_to_data_rows_table',
+                    'batch' => 0,
+                ),
+                186 => 
+                array (
+                    'id' => 187,
+                    'migration' => '2022_02_05_154726_add_foreign_keys_to_menu_items_table',
+                    'batch' => 0,
+                ),
+                187 => 
+                array (
+                    'id' => 188,
+                    'migration' => '2022_02_05_154726_add_foreign_keys_to_permission_role_table',
+                    'batch' => 0,
+                ),
+                188 => 
+                array (
+                    'id' => 189,
+                    'migration' => '2022_02_05_154726_add_foreign_keys_to_user_roles_table',
+                    'batch' => 0,
+                ),
+                189 => 
+                array (
+                    'id' => 190,
+                    'migration' => '2022_02_05_154726_add_foreign_keys_to_users_table',
+                    'batch' => 0,
+                ),
             ));
        } catch(Exception $e) {
          throw new Exception('Exception occur ' . $e);

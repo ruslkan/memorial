@@ -4,61 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "409f8869f68258cb7e74f28211554b1f",
+    "content-hash": "23b3ba0e92c931121cc47601281fdd8f",
     "packages": [
-        {
-            "name": "arrangemy/voyager-deployment-orchestrator",
-            "version": "v2.4.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/arrangeMY/voyager-deployment-orchestrator.git",
-                "reference": "20ed8fa307c978383a7aa24834fb11b2f8032c48"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/arrangeMY/voyager-deployment-orchestrator/zipball/20ed8fa307c978383a7aa24834fb11b2f8032c48",
-                "reference": "20ed8fa307c978383a7aa24834fb11b2f8032c48",
-                "shasum": ""
-            },
-            "require-dev": {
-                "friendsofphp/php-cs-fixer": "^2.9@dev",
-                "tcg/voyager": "^1.1"
-            },
-            "type": "library",
-            "extra": {
-                "laravel": {
-                    "providers": [
-                        "arrangeMY\\VoyagerDeploymentOrchestrator\\VoyagerDeploymentOrchestratorServiceProvider"
-                    ]
-                }
-            },
-            "autoload": {
-                "psr-4": {
-                    "arrangeMY\\VoyagerDeploymentOrchestrator\\": "src/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Alex Ganderton"
-                }
-            ],
-            "description": "Package for Voyager BREAD Deployment.",
-            "keywords": [
-                "bread-seeder",
-                "laravel",
-                "voyager",
-                "voyager-deployment",
-                "voyager-seeder"
-            ],
-            "support": {
-                "source": "https://github.com/arrangeMY/voyager-deployment-orchestrator/tree/v2.4.0"
-            },
-            "time": "2021-05-31T01:28:09+00:00"
-        },
         {
             "name": "arrilot/laravel-widgets",
             "version": "3.13.1",
@@ -7519,78 +7466,6 @@
                 "source": "https://github.com/hamcrest/hamcrest-php/tree/v2.0.1"
             },
             "time": "2020-07-09T08:09:16+00:00"
-        },
-        {
-            "name": "kitloong/laravel-migrations-generator",
-            "version": "v5.1.2",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/kitloong/laravel-migrations-generator.git",
-                "reference": "b53917809a3165005a4d5b558c6c880d53668182"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/kitloong/laravel-migrations-generator/zipball/b53917809a3165005a4d5b558c6c880d53668182",
-                "reference": "b53917809a3165005a4d5b558c6c880d53668182",
-                "shasum": ""
-            },
-            "require": {
-                "doctrine/dbal": "~2.4|^3.0",
-                "illuminate/support": "^5.6|^6.0|^7.0|^8.0",
-                "php": ">=7.1.3"
-            },
-            "require-dev": {
-                "ext-pdo": "*",
-                "friendsofphp/php-cs-fixer": "^2.19.0|^3.1",
-                "mockery/mockery": "^1.0",
-                "nunomaduro/larastan": "^0.4|^0.5|^0.6|^0.7",
-                "orchestra/testbench": "^3.6|^4.0|^5.0|^6.0",
-                "phpmd/phpmd": "^2.10",
-                "squizlabs/php_codesniffer": "^3.5"
-            },
-            "type": "library",
-            "extra": {
-                "laravel": {
-                    "providers": [
-                        "MigrationsGenerator\\MigrationsGeneratorServiceProvider"
-                    ]
-                }
-            },
-            "autoload": {
-                "psr-4": {
-                    "MigrationsGenerator\\": "src/MigrationsGenerator"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Kit Loong",
-                    "email": "kitloong1008@gmail.com"
-                }
-            ],
-            "description": "Generates Laravel Migrations from an existing database",
-            "keywords": [
-                "artisan",
-                "generator",
-                "laravel",
-                "lumen",
-                "migration",
-                "migrations"
-            ],
-            "support": {
-                "issues": "https://github.com/kitloong/laravel-migrations-generator/issues",
-                "source": "https://github.com/kitloong/laravel-migrations-generator/tree/v5.1.2"
-            },
-            "funding": [
-                {
-                    "url": "https://www.buymeacoffee.com/kitloong",
-                    "type": "custom"
-                }
-            ],
-            "time": "2022-01-07T16:49:26+00:00"
         },
         {
             "name": "laravel/sail",

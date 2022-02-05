@@ -73,11 +73,11 @@ First, make sure you have [Docker](https://docs.docker.com/) and [Docker Compose
 9. Run Seeder
 
     ```sh
-    ./vendor/bin/sail php artisan db:seed
+    ./vendor/bin/sail php artisan db:seed --class=VoyagerDatabaseSeeder
     ```
 
     ```sh
-    ./vendor/bin/sail php artisan db:seed --class=VoyagerDatabaseSeeder
+    ./vendor/bin/sail php artisan db:seed
     ```
 
 10. NPM install
@@ -92,5 +92,5 @@ First, make sure you have [Docker](https://docs.docker.com/) and [Docker Compose
     ./vendor/bin/sail npm run watch
     ```
 
-open app: http://localhost:3000
-open admin: http://localhost:3000/admin (login: test@email.com, password: test)
+-   open app: http://localhost:3000
+-   open admin: http://localhost:3000/admin (login: test@email.com, password: test)
