@@ -36,9 +36,9 @@ First, make sure you have [Docker](https://docs.docker.com/) and [Docker Compose
     DB_CONNECTION=mysql
     DB_HOST=mysql
     DB_PORT=3306
-    DB_DATABASE=memorial_db // yourdatabase, create if not exist
+    DB_DATABASE=test_db // yourdatabase, create if not exist
     DB_USERNAME=test // user for database by default is root
-    DB_PASSWORD= // password for database by default is : empty
+    DB_PASSWORD=test // password for database by default is : empty
     ```
 
 5. Installing Composer Dependencies
@@ -91,6 +91,8 @@ First, make sure you have [Docker](https://docs.docker.com/) and [Docker Compose
     ```sh
     ./vendor/bin/sail npm run watch
     ```
+
+---
 
 -   open app: http://localhost:3000
 -   open admin: http://localhost:3000/admin (login: test@email.com, password: test)

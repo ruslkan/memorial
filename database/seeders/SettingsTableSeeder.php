@@ -21,7 +21,7 @@ class SettingsTableSeeder extends Seeder
         \DB::table('settings')->delete();
 
         \DB::table('settings')->insert(array (
-                0 => 
+                0 =>
                 array (
                     'id' => 1,
                     'key' => 'site.title',
@@ -32,7 +32,7 @@ class SettingsTableSeeder extends Seeder
                     'order' => 1,
                     'group' => 'Site',
                 ),
-                1 => 
+                1 =>
                 array (
                     'id' => 2,
                     'key' => 'site.description',
@@ -43,7 +43,7 @@ class SettingsTableSeeder extends Seeder
                     'order' => 2,
                     'group' => 'Site',
                 ),
-                2 => 
+                2 =>
                 array (
                     'id' => 3,
                     'key' => 'site.logo',
@@ -54,7 +54,7 @@ class SettingsTableSeeder extends Seeder
                     'order' => 3,
                     'group' => 'Site',
                 ),
-                3 => 
+                3 =>
                 array (
                     'id' => 4,
                     'key' => 'site.google_analytics_tracking_id',
@@ -65,18 +65,18 @@ class SettingsTableSeeder extends Seeder
                     'order' => 4,
                     'group' => 'Site',
                 ),
-                4 => 
+                4 =>
                 array (
                     'id' => 5,
                     'key' => 'admin.bg_image',
                     'display_name' => 'Фоновое Изображение для Админки',
-                    'value' => 'settings/August2021/tQADjzrybm3jxTH5BcrV.jpg',
+                    'value' => '',
                     'details' => '',
                     'type' => 'image',
                     'order' => 5,
                     'group' => 'Admin',
                 ),
-                5 => 
+                5 =>
                 array (
                     'id' => 6,
                     'key' => 'admin.title',
@@ -87,7 +87,7 @@ class SettingsTableSeeder extends Seeder
                     'order' => 1,
                     'group' => 'Admin',
                 ),
-                6 => 
+                6 =>
                 array (
                     'id' => 7,
                     'key' => 'admin.description',
@@ -98,7 +98,7 @@ class SettingsTableSeeder extends Seeder
                     'order' => 2,
                     'group' => 'Admin',
                 ),
-                7 => 
+                7 =>
                 array (
                     'id' => 8,
                     'key' => 'admin.loader',
@@ -109,18 +109,18 @@ class SettingsTableSeeder extends Seeder
                     'order' => 3,
                     'group' => 'Admin',
                 ),
-                8 => 
+                8 =>
                 array (
                     'id' => 9,
                     'key' => 'admin.icon_image',
                     'display_name' => 'Иконка Админки',
-                    'value' => 'settings/September2021/prjCh2dUXE1d92xlaVXc.jpg',
+                    'value' => '',
                     'details' => '',
                     'type' => 'image',
                     'order' => 4,
                     'group' => 'Admin',
                 ),
-                9 => 
+                9 =>
                 array (
                     'id' => 10,
                     'key' => 'admin.google_analytics_client_id',
@@ -131,40 +131,40 @@ class SettingsTableSeeder extends Seeder
                     'order' => 1,
                     'group' => 'Admin',
                 ),
-                10 => 
+                10 =>
                 array (
                     'id' => 11,
                     'key' => 'site.header_bg',
                     'display_name' => 'Фоновое изображение шапки',
-                    'value' => 'settings/February2022/bURp5JREYN3olM3XCedr.jpg',
+                    'value' => '',
                     'details' => NULL,
                     'type' => 'image',
                     'order' => 6,
                     'group' => 'Site',
                 ),
-                11 => 
+                11 =>
                 array (
                     'id' => 12,
                     'key' => 'site.body_bg',
                     'display_name' => 'Фоновое изображение сайта',
-                    'value' => 'settings/August2021/yPAeM8Ef1o3gVkbxV1tC.jpg',
+                    'value' => '',
                     'details' => NULL,
                     'type' => 'image',
                     'order' => 7,
                     'group' => 'Site',
                 ),
-                12 => 
+                12 =>
                 array (
                     'id' => 13,
                     'key' => 'site.footer_bg',
-                    'display_name' => 'Надпись в подвале сайта',
-                    'value' => 'settings/August2021/MoQmGOhF2eEE93EDMAs5.jpg',
+                    'display_name' => 'Фоновое изображение подвала',
+                    'value' => '',
                     'details' => NULL,
                     'type' => 'image',
                     'order' => 8,
                     'group' => 'Site',
                 ),
-                13 => 
+                13 =>
                 array (
                     'id' => 14,
                     'key' => 'site.logo_title',
