@@ -1,4 +1,4 @@
-## Introduction
+# Introduction
 
 Web catalog of monuments with a database. Implemented a filter by category, a calculator of the total cost for the selected parameters. The calculation of the cost of monuments is based on the cost of the material.
 
@@ -105,3 +105,7 @@ First, make sure you have [Docker](https://docs.docker.com/) and [Docker Compose
 -   open Application: http://localhost:3000
 -   open admin: http://localhost:3000/admin (login: test@email.com, password: test)
 -   open phpMyAdmin: http://localhost:8081 (user for database by default is root, password for database by default is : empty)
+
+#### License
+
+[MIT license](https://opensource.org/licenses/MIT)
