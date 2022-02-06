@@ -1,6 +1,6 @@
 ## Introduction
 
-Web catalog of monuments with a database. Implemented a filter by category, a calculator of the total cost for the selected parameters.
+Web catalog of monuments with a database. Implemented a filter by category, a calculator of the total cost for the selected parameters. The calculation of the cost of monuments is based on the cost of the material.
 
 Implemented on:
 
@@ -86,13 +86,22 @@ First, make sure you have [Docker](https://docs.docker.com/) and [Docker Compose
     ./vendor/bin/sail npm install
     ```
 
-11. Run watcher
+11. Run Laravel app
 
     ```sh
     ./vendor/bin/sail npm run watch
     ```
 
+12. Compile components
+
+    ```sh
+    ./vendor/bin/sail npm run prod
+    ```
+
 ---
 
--   open app: http://localhost:3000
+### Congratulations! You can now run this project
+
+-   open Application: http://localhost:3000
 -   open admin: http://localhost:3000/admin (login: test@email.com, password: test)
+-   open phpMyAdmin: http://localhost:8081 (user for database by default is root, password for database by default is : empty)
