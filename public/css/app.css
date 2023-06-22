@@ -7255,17 +7255,33 @@ input[type=radio]:checked {
 }
 
 .footer__inner {
+  padding-right: 0;
+  padding-left: 0;
+  max-width: 75rem;
+  margin-left: auto;
+  margin-right: auto;
   display: flex;
   flex-flow: row wrap;
-  justify-content: center;
-  align-items: center;
+}
+.footer__data-organization {
+  display: flex;
+  flex-flow: row wrap;
+  padding: 1.5em 0 0 0.5em;
 }
 .footer__copyright {
   padding: 1rem 0;
   font-style: italic;
+  text-align: center;
   color: #8a8a8a;
   font-size: 0.65rem;
   margin-bottom: 0;
+}
+
+.data-organization__list {
+  list-style: none;
+  color: #cacaca;
+  line-height: 1.2em;
+  font-weight: 600;
 }
 
 .logo {

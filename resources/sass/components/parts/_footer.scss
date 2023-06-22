@@ -1,15 +1,31 @@
 // ========== BEGIN FOOTER ========== //
 .footer {
     &__inner {
+        @include xy-grid-container($padding:0);
         @include xy-grid;
-        @include flex-align(center, middle);
+    }
+
+    &__data-organization {
+        @include xy-grid;
+        padding: 1.5em 0 0 0.5em;
     }
 
     &__copyright {
         padding: 1rem 0;
         font-style: italic;
+        text-align: center;
         color: $dark-gray;
         font-size: 0.65rem;
         margin-bottom: 0;
+    }
+}
+
+.data-organization {
+
+    &__list {
+        list-style: none;
+        color: $medium-gray;
+        line-height: 1.2em;
+        @include font-bold($weight: 600);
     }
 }
